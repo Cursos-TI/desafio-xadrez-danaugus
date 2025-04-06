@@ -31,6 +31,19 @@ int main() {
         printf("Esquerda\n");//Imprime a direção do movimento
         r ++;
     }
+
+    //Mover o cavalo duas casas para baixo e uma a esquerda
+    printf("\nMovimento do CAVALO\n");
+    int c = 0;
+    for (int i = 0; i < 1; i++)
+    {
+        do
+        {
+            printf("Baixo\n");//Imprime a direção do movimento
+            c++;
+        } while (c < 2);
+        printf("Esquerda\n");//Imprime a direção do movimento
+    }
     
   
     // Nível Novato - Movimentação das Peças
